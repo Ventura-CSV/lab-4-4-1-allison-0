@@ -1,9 +1,10 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    while True:
+        number = int(input('Enter a number'))
+        if 0 < number < 100:
+            break
+        else:
+            print('Invalid')
 
     print(number)
 
